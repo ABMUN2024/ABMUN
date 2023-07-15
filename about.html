@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="bootstrap.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/160883a6ae.js" crossorigin="anonymous"></script>
+        <title>About Us</title>
+        <style>
+            @media (pointer:coarse) {
+                .options{
+                    flex-direction: column !important;
+                    gap:0 !important;
+                }
+                .oneimg{
+                    height:30vh!important;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="mobileNavDropdown">
+            <i id="mobileNavClose" class="fa-solid fa-xmark fa-2xl"></i>
+            <a href="index.html"><span>Home</span></a>
+            <a href='about.html'><span>About Us</span></a>
+            <a href='secretariat.html'><span>Secretariat</span></a>
+            <a href='schedule.html'><span>Schedule</span></a>
+            <a href='resources.html'><span>Resources</span></a>
+            <a href='registration.html' ><span>Registration</span></a>
+            <a href='committees.html' ><span>Committees</span></a>
+            <a href='contact.html' ><span>Contact</span></a>
+        </div>
+        <div id="background">
+            <img class="logo" onclick="window.location.href='index.html'" src="https://images-ext-1.discordapp.net/external/7ri5UdH1BWP9UyVgmq_1TiJbkHWC55EZu2B2z26kcm0/https/codehs.com/uploads/fe154da9b07af14605ac3a9de0114f83?width=1027&height=1027">
+            <i id="mobileNavBtn" class="fa-solid fa-bars fa-2xl"></i>
+            <div id="navbar">
+                <a href="index.html"><span>Home</span></a>
+                <a class="dropdown" d-val="1">About US <i class="fa fa-angle-down"></i></a>
+                <div class="dropdown-items" d-val="1" style="right:24.7em;">
+                    <div>
+                        <a href='about.html'><span>About Us</span></a>
+                        <a href='secretariat.html'><span>Secretriat</span></a>
+                    </div>
+                </div>
+                <a class="dropdown" d-val="2">Conference <i class="fa fa-angle-down"></i></a>
+                <div class="dropdown-items" d-val="2" style="right:17.7em;">
+                    <div>
+                        <a href='schedule.html'><span>Schedule</span></a>
+                        <a href='resources.html'><span>Resources</span></a>
+                    </div>
+                </div>
+                <a href='registration.html' ><span>Registration</span></a>
+                <a href='committees.html' ><span>Committees</span></a>
+                <a href='contact.html' ><span>Contact</span></a>
+            </div>
+            <div class="title">
+                <h1><b>About Us</b></h1>
+            </div>
+        </div>
+        <div class="content centered bigger">
+            <h2>About Us</h2>
+            <hr>
+            <div class="options" style="gap:1em; margin:0;">
+                <div class="oneimg" style="overflow:hidden; padding:0.5em 0;">
+                    <img style="width:100%; height:100%; object-fit:cover;" src="https://codehs.com/uploads/8f74f5bc6ed4350d17eb49b054bbbfe1">
+                </div>
+                <div style="text-align: left;">
+                    <p>Welcome to Alberta Model United Nations (ABMUN), a highly anticipated annual conference held virtually in the vibrant city of Calgary, Alberta. Our conference brings together high school students and provides them with a unique platform to hone their public speaking, debate, diplomatic, and critical thinking skills. We believe that the power of MUN lies not only in the intellectual stimulation it provides but also in the opportunity it offers for exchange and collaboration, and so in this conference, we ensure a high-quality experience for all participants, from the selection of engaging topics to the provision of an engaging atmosphere. Our committees range of both contemporary and historical issues at hand, from dealing with the Rohingya Crisis to facing a possible nuclear outbreak deep within the Cold War. We invite you to join us at ABMUN and embark on a journey of personal growth, intellectual exploration, and collaboration. </p>
+                </div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+        <footer>
+            <div class="socialMedia">
+                <i onclick="window.location.href='https://www.instagram.com/abmun2024/'" class="fa-brands fa-instagram fa-2xl"></i>
+                <i onclick="window.location.href='contact.html'" class="fa-regular fa-envelope fa-2xl"></i>
+            </div>
+            <div>
+                <h4><i>One World, One Community</i></h4>
+            	<p>© Copyright ABMUN 2024. All Rights Reserved.</p>
+            	<p>Website Design and Development By Michael Aspinall, USG of IT</p>
+            </div>
+        </footer>
+    </body>
+</html>
