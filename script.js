@@ -50,7 +50,7 @@ function showDropdown(){
     }
 }
 
-const popupHeader = 'Website Launched';
+const popupHeader = 'Registration is Now Open!';
 const popupPara = "Join Alberta Model UN in <a href='registration.html'>Registration</a> or check out our <a href='committees.html'>Committees</a>.";
 const popup = document.getElementById('popup')
 const banner = document.getElementById('banner')
