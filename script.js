@@ -55,6 +55,10 @@ const popupPara = "Join Alberta Model UN in <a href='registration.html'>Registra
 const popup = document.getElementById('popup')
 const banner = document.getElementById('banner')
 
+if(location.href.split("/").slice(-1) != 'index.html'){
+    popup.setAttribute('style', 'display:none;')
+}
+
 popup.querySelector('h3').innerHTML = popupHeader
 popup.querySelector('p').innerHTML = popupPara
 banner.querySelector('h3').innerHTML = popupHeader
