@@ -68,6 +68,9 @@ h1:not(.title h1), h2{
     h3 b, p b{
         font-weight:400;
     }
+    #popup{
+        font-size:3em;
+    }
 }
 #mobileNavDropdown, #mobileNavBtn{
     display:none;
@@ -342,4 +345,41 @@ footer .socialMedia i{
 }
 footer div{
     text-align:center;
+}
+#banner{
+    padding:0.2em; 
+    text-align:center; 
+    font-size:1em;
+    font-family: Helvetica, Sans-Serif;
+    background-color:#46B2FD;
+    /*border-bottom:2px solid white;*/
+}
+#banner p, #banner h3, #banner a, #banner i{
+    color:white;
+}
+#banner p, #banner h3{
+    margin:0.4em;
+}
+#popup{
+    width:calc(90vw - 4em);
+    height:calc(90vh - 4em);
+    position:fixed;
+    left:5vw;
+    top:5vh;
+    z-index:10000;
+    background-color:white;
+    color:white;
+    padding:2em;
+    text-align:center;
+    font-size:3.5em;
+    border:2px solid #46B2FD;
+}
+#popup a, #popup h3, #popup p, #popup i{
+    color:#46B2FD;
+}
+.banner-close{
+    position:absolute;
+    right:1em;
+    top:1em;
+    cursor:pointer;
 }
