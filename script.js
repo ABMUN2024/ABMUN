@@ -49,3 +49,20 @@ function showDropdown(){
         mobileNavPopup.style.display="flex";
     }
 }
+
+const popupHeader = 'Website Launched';
+const popupPara = "Join Alberta Model UN in <a href='registration.html'>Registration</a> or check out our <a href='committees.html'>Committees</a>.";
+const popup = document.getElementById('popup')
+const banner = document.getElementById('banner')
+
+popup.querySelector('h3').innerHTML = popupHeader
+popup.querySelector('p').innerHTML = popupPara
+banner.querySelector('h3').innerHTML = popupHeader
+banner.querySelector('p').innerHTML = popupPara
+
+popup.querySelector('.banner-close').onclick = function(){
+    popup.setAttribute('style', 'display:none;')
+}
+banner.querySelector('.banner-close').onclick = function(){
+    banner.setAttribute('style', 'display:none;')
+}
