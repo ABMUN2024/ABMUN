@@ -9,7 +9,7 @@ h1:not(.title h1), h2{
     color:#2c98db;
 }
 #background{
-    background: linear-gradient(rgba(0, 0, 100, 0.7), rgba(0, 0, 100, 0.4), rgba(0, 0, 100, 0.7)), url('https://codehs.com/uploads/b7c38283a76b8f54ba24659a278aa35f');
+    background: linear-gradient(rgba(0, 0, 100, 0.7), rgba(0, 0, 100, 0.4), rgba(0, 0, 100, 0.7));
     background-repeat: no-repeat;
     background-size: cover !important;
     position:relative;
