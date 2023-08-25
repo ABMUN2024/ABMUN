@@ -62,7 +62,7 @@ popup.querySelector('p').innerHTML = popupPara
 banner.querySelector('h3').innerHTML = bannerHeader
 banner.querySelector('p').innerHTML = bannerPara
 
-if(location.href.split("/").slice(-1) != 'index.html'){
+if(location.href.split("/").slice(-1) != 'index.html' && location.href.split("/").slice(-1) != ''){
     popup.setAttribute('style', 'display:none;')
 }
 popup.querySelector('.banner-close').onclick = function(){
