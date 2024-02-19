@@ -52,22 +52,7 @@ function showDropdown(){
 
 const bannerHeader = "Register for ABMUN 2024";
 const bannerPara = "Join Alberta Model UN in <a href='registration.html'>Registration</a> or check out our <a href='committees.html'>Committees</a>.";
-const popupHeader = 'Register for ABMUN 2024!';
-const popupPara = "ABMUN is starting it's very first conference on Febuary 16th-17th, 2024. The conference is filled with four very exciting committees";
-const popup = document.getElementById('popup')
 const banner = document.getElementById('banner')
 
-popup.querySelector('h3').innerHTML = popupHeader
-popup.querySelector('p').innerHTML = popupPara
 banner.querySelector('h3').innerHTML = bannerHeader
 banner.querySelector('p').innerHTML = bannerPara
-
-if(location.href.split("/").slice(-1) != 'index.html' && location.href.split("/").slice(-1) != ''){
-    popup.setAttribute('style', 'display:none;')
-}
-popup.querySelector('.banner-close').onclick = function(){
-    popup.setAttribute('style', 'display:none;')
-}
-banner.querySelector('.banner-close').onclick = function(){
-    banner.setAttribute('style', 'display:none;')
-}
