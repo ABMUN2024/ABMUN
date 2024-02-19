@@ -50,8 +50,8 @@ function showDropdown(){
     }
 }
 
-const bannerHeader = "Register for ABMUN 2024";
-const bannerPara = "Join Alberta Model UN in <a href='registration.html'>Registration</a> or check out our <a href='committees.html'>Committees</a>.";
+const bannerHeader = "The ABMUN Secretariat application is now open!";
+const bannerPara = "<a href='https://form.jotform.com/abmun2024/abmun-2025-secretariat-application'>Apply now!</a>";
 const banner = document.getElementById('banner')
 
 banner.querySelector('h3').innerHTML = bannerHeader
